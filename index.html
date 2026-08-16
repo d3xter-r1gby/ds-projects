@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DS Projects — Modern Website Design Made Easy</title>
+<meta name="description" content="DS Projects finds businesses with outdated websites and gives them a modern, fast, mobile-friendly redesign.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230a0e1a%22/><text x=%2216%22 y=%2222%22 font-family=%22sans-serif%22 font-weight=%22700%22 font-size=%2214%22 fill=%22%234f8fff%22 text-anchor=%22middle%22>DS</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <svg class="logo-mark" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#4f8fff"/>
+            <stop offset="1" stop-color="#8ec3ff"/>
+          </linearGradient>
+        </defs>
+        <rect x="1" y="1" width="38" height="38" rx="10" fill="#0d1526" stroke="url(#logoGrad)" stroke-width="1.5"/>
+        <path d="M11 27V13h6.2c4.4 0 7.3 2.7 7.3 7s-2.9 7-7.3 7H11Zm3.4-3h2.6c2.5 0 4-1.5 4-4s-1.5-4-4-4h-2.6v8Z" fill="url(#logoGrad)"/>
+        <circle cx="29.5" cy="12.5" r="2.2" fill="#8ec3ff"/>
+      </svg>
+      <span class="brand-name">DS <strong>Projects</strong></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#work">Our Work</a>
+      <a href="#about">About</a>
+      <a href="#team">Team</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">Website design &amp; redesign studio</p>
+      <h1>DS Projects</h1>
+      <p class="slogan">Modern website design made easy.</p>
+      <p class="hero-copy">
+        We track down businesses stuck with old, clunky websites, put together a straightforward
+        quote, and turn them into fast, modern, mobile-friendly sites their customers actually enjoy using.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See our work</a>
+        <a href="#about" class="btn btn-ghost">How it works</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="work">
+    <div class="container">
+      <h2>Our Work</h2>
+      <p class="section-sub">A few sample projects — our real client showcase is on its way.</p>
+
+      <div class="carousel" id="carousel">
+        <div class="carousel-track" id="carouselTrack">
+
+          <article class="carousel-card">
+            <div class="mock-browser">
+              <div class="mock-browser-bar"><span></span><span></span><span></span></div>
+              <div class="mock-browser-body gradient-1">
+                <span class="mock-label">Before → After</span>
+              </div>
+            </div>
+            <h3>Local Bakery Rebrand</h3>
+            <p>Sample project — outdated static site turned into a clean, mobile-first storefront.</p>
+          </article>
+
+          <article class="carousel-card">
+            <div class="mock-browser">
+              <div class="mock-browser-bar"><span></span><span></span><span></span></div>
+              <div class="mock-browser-body gradient-2">
+                <span class="mock-label">Before → After</span>
+              </div>
+            </div>
+            <h3>Trade &amp; Contracting Site</h3>
+            <p>Sample project — a modern one-pager built for quote requests and mobile visitors.</p>
+          </article>
+
+          <article class="carousel-card">
+            <div class="mock-browser">
+              <div class="mock-browser-bar"><span></span><span></span><span></span></div>
+              <div class="mock-browser-body gradient-3">
+                <span class="mock-label">Before → After</span>
+              </div>
+            </div>
+            <h3>Boutique Studio Refresh</h3>
+            <p>Sample project — refreshed branding, faster load times, cleaner navigation.</p>
+          </article>
+
+          <article class="carousel-card">
+            <div class="mock-browser">
+              <div class="mock-browser-bar"><span></span><span></span><span></span></div>
+              <div class="mock-browser-body gradient-4">
+                <span class="mock-label">Coming soon</span>
+              </div>
+            </div>
+            <h3>Your Business Here</h3>
+            <p>This could be your project — get in touch and let's give your site an upgrade.</p>
+          </article>
+
+        </div>
+
+        <button class="carousel-btn carousel-prev" id="prevBtn" aria-label="Previous">&#10094;</button>
+        <button class="carousel-btn carousel-next" id="nextBtn" aria-label="Next">&#10095;</button>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <h2>About DS Projects</h2>
+      <p class="section-sub">
+        We help businesses trade in their outdated website for one that actually works for them.
+      </p>
+
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <h3>Discover</h3>
+          <p>We find businesses whose websites are outdated, slow, or hard to use on mobile.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <h3>Quote</h3>
+          <p>We put together a clear, no-pressure quote for what a redesign would look like.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <h3>Deliver</h3>
+          <p>We design and build a modern, responsive site that works everywhere.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="team">
+    <div class="container">
+      <h2>Meet the Team</h2>
+      <p class="section-sub">The people behind DS Projects.</p>
+
+      <div class="team-grid">
+        <article class="team-card">
+          <img src="imgs/IMG_5249.jpeg" alt="Team member" class="team-photo">
+          <h3>Name Here</h3>
+          <p class="team-role">Role Here</p>
+          <p class="team-bio">Add a short bio here — background, what you focus on at DS Projects, anything you want visitors to know.</p>
+        </article>
+
+        <article class="team-card">
+          <img src="imgs/IMG_5499.jpeg" alt="Team members" class="team-photo">
+          <h3>Names Here</h3>
+          <p class="team-role">Roles Here</p>
+          <p class="team-bio">Add a short bio here for both of you — how you work together and what you bring to the team.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 DS Projects. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
